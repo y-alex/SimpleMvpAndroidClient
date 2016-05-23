@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">AndroidMVPSimpleClient</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Add Bunch</string>
+    <string name="title_activity_shops_maps">Map</string>
+    <string name="search_title">Search</string>
+    <string name="map_not_ready">Map not ready yet!</string>
+    <string name="shops_list_empty">Shops list is empty</string>
+    <string name="pref_splash_title">Splash time:</string>
+    <string name="pref_splash_dialog_title">Choose splash time</string>
+    <string name="pref_splash_time_key">pref_splash_key</string>
+    <string name="title_activity_shop_detail">ShopDetailActivity</string>
+    <string name="title_activity_add_shop">AddShopActivity</string>
+    <string name="title_activity_add_user">AddUserActivity</string>
+    <string name="pref_email_key">email_sendDb</string>
+    <string name="title_activity_user_detail">UserDetailActivity</string>
+    <string name="menu_save">Delete shop</string>
+</resources>

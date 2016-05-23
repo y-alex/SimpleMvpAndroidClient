@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Splash Preference">
+    <ListPreference
+        android:key="@string/pref_splash_time_key"
+        android:title="@string/pref_splash_title"
+        android:dialogTitle="@string/pref_splash_dialog_title"
+        android:entries="@array/pref_splash_delay_human_value"
+        android:entryValues="@array/pref_splash_delay_phone_value"
+        android:defaultValue="3000" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Send Database by email">
+
+    <com.yanovich.alex.androidmvpsimpleclient.ui.settings.SendEmailEditTextPreference
+        android:title="Email to send:"
+        android:key="email_sendDb"
+        android:inputType="text"
+        android:singleLine="true"
+        android:defaultValue="default@email.com"
+        android:summary="SummaryValue"
+       />
+    </PreferenceCategory>
+</PreferenceScreen>
